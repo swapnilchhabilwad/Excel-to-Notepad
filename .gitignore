@@ -1,0 +1,44 @@
+# ─── Python ────────────────────────────────────────────────────────────────
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# ─── Virtual environments / IDE ───────────────────────────────────────────
+.venv/
+venv/
+env/
+.virtualenvs/
+*.venv
+
+# ─── IDE / Editor ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Project-specific: Output files ───────────────────────────────────────
+# The data/Output folder contains generated TXT and PDF files.
+# They are not part of the source code, so we ignore them.
+data/Output/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── OS metadata ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─── PDFs (generated, not source) ─────────────────────────────────────────
+*.pdf
